@@ -1,0 +1,18 @@
+body {
+    width: 400px;
+    border: 10px solid #b50f0f;
+    text-align: center;
+}
+
+input {
+    margin: 10px;
+}
+
+.A {
+    width: 25px;
+    margin: 3px;
+}
+
+input[type="button"]:hover {
+    background-color: #ebac85;
+}

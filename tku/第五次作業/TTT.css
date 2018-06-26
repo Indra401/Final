@@ -1,0 +1,21 @@
+table{
+    margin: auto;
+}
+td {
+    width: 200px;
+    height: 200px;    
+}
+td:hover{
+    border: 2px solid #ea4848;
+}
+.h{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.v{
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+h1{
+    text-align: center;
+}
