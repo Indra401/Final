@@ -6,24 +6,100 @@
     <title>Bomber</title>
     <link rel="stylesheet" href="css/bomber.css">
     <script src="js/bomber.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="../../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="../../css/agency.min.css" rel="stylesheet">
 </head>
 
 <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="../../index.html">403660029</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#services">Introduction</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        TKU
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="../../tku/P3/myclass.html">MyClass</a>
+                        <a class="dropdown-item" href="../../tku/第七次作業/tku60.html">tku60</a>
+                        <a class="dropdown-item" href="../../tku/第八次作業/bomber.html">Bomber</a>
+                        <a class="dropdown-item" href="../../tku/第五次作業/photoGrid.html">Photo</a>
+                        <a class="dropdown-item" href="../../tku/第四次作業/pokemon.html">Pokemon</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
     <img src="img/title1.gif">
-    <form>
-        請輸入(1~99)其中一個數字 來開始終極密碼<br>
+    <form class="B">
+        請輸入(1~99)其中一個數字 來開始終極密碼
+        <br>
         <input type="number" id="code" min="1" max="99" autofocus id="N">
         <input type="button" value="Guess" onclick="doguess()">
         <input type="button" value="Restart" onclick="restart()">
+        <div>
+            <img src="img/bomber.png" class="A" name="img1">
+            <img src="img/bomber.png" class="A" name="img2">
+            <img src="img/bomber.png" class="A" name="img3">
+            <img src="img/bomber.png" class="A" name="img4">
+            <img src="img/bomber.png" class="A" name="img5">
+            <img src="img/bomber.png" class="A" name="img6">
+        </div>
     </form>
-    <div>
-        <img src="img/bomber.png" class="A" name="img1">
-        <img src="img/bomber.png" class="A" name="img2">
-        <img src="img/bomber.png" class="A" name="img3">
-        <img src="img/bomber.png" class="A" name="img4">
-        <img src="img/bomber.png" class="A" name="img5">
-        <img src="img/bomber.png" class="A" name="img6">
-    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../../vendor/jquery/jquery.min.js"></script>
+    <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="../../vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="../../js/jqBootstrapValidation.js"></script>
+    <script src="../../js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="../../js/agency.min.js"></script>
 </body>
 
 </html>
